@@ -11,7 +11,7 @@
       <li>Web Developer</li>
       <li>Software Engineer</li>
       <li>UX Designer</li>
-      <li>Project Manager</li>
+     
     </ul>
 </body>
 </html>
