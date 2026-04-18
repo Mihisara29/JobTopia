@@ -6,12 +6,14 @@
   <title>Job Listing</title>
 </head>
 <body>
-    <h1><?php echo 'Available Jobs'; ?></h1>
+    <h1>{{ $title }}</h1>
+    
     <ul>
-      <li>Web Developer</li>
-      <li>Software Engineer</li>
-      <li>UX Designer</li>
-     
+     @forelse($jobs as $job)
+        <li>{{ $job }}</li>
+     @empty
+        <li>No jobs available at the moment.</li>
+     @endforelse
     </ul>
 </body>
 </html>
