@@ -9,7 +9,7 @@
   <h1>Create New Job</h1>
   <!-- Form for creating a new job would go here -->
   <form action="/jobs" method="POST">
-  
+      @csrf
     <label for="title">Job Title:</label>
     <input type="text" id="title" name="title" required>
     <br><br>
